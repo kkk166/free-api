@@ -1,0 +1,43 @@
+.dashboard-layout {
+  min-height: 100vh;
+
+  .dashboard-sider {
+    .logo-container {
+      display: flex;
+      align-items: center;
+      padding: 16px;
+      gap: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+      .logo {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    .header-right {
+      margin-left: auto;
+    }
+  }
+
+  .dashboard-content {
+    margin: 24px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    .content-wrapper {
+      min-height: 280px;
+    }
+  }
+}

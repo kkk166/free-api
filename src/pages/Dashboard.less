@@ -1,0 +1,77 @@
+.dashboard {
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .stat-card {
+    .stat-content {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .stat-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .stat-info {
+      flex: 1;
+    }
+
+    .stat-title {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .stat-trend {
+      font-size: 12px;
+    }
+  }
+
+  .chart-card {
+    .ant-card-body {
+      padding: 16px;
+    }
+  }
+
+  .pie-legend {
+    margin-top: 16px;
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 12px;
+      
+      .legend-color {
+        width: 12px;
+        height: 12px;
+        border-radius: 2px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .activity-card {
+    .ant-table {
+      .ant-table-cell {
+        padding: 8px;
+      }
+    }
+  }
+
+  .quick-actions {
+    .ant-btn {
+      height: 48px;
+    }
+  }
+}
